@@ -1,0 +1,37 @@
+export const experience = [
+  {
+    company: 'Abilio IT Solutions Pvt Ltd',
+    location: 'Madhapur, Hyderabad',
+    title: 'Software Engineer, App Development',
+    period: 'Sep 2025 — Present',
+    points: [
+      'Shipped cross-platform Android and iOS apps in React Native, from requirements through production release.',
+      'Set up reusable components, a clear folder structure, and state management built to last past the first release.',
+      'Added dark and light theme support across the application.',
+      'Integrated Google Maps for current location, map view, and address selection.',
+      'Implemented Firebase push for live updates, promotional alerts, and booking or job status.',
+      'Added Google Sign-In, Facebook Login, and Apple Sign-In.',
+      'Connected REST APIs for service listing, booking, payments, profile, and job applications.',
+      'Published to the Play Store and the App Store, including certificates, provisioning profiles, and versioning.',
+      'Tracked behavior, retention, and conversion with Google Analytics and Firebase Analytics.',
+      'Reduced re-renders, tightened API calls, and made the UI more responsive.',
+      'Worked with UI/UX and backend through to a stable release.',
+    ],
+  },
+  {
+    company: 'Neo-teq Software Private Ltd',
+    location: 'New Nallakunta, Hyderabad',
+    title: 'Software Engineer, App Development',
+    period: 'Sep 2023 — Sep 2025',
+    points: [
+      'Built and maintained Android apps in Java with the Android SDK, and cross-platform apps in React Native.',
+      'Implemented XML layouts and React Native screens with JSX and styled-components.',
+      'Integrated REST APIs between the apps and backend services.',
+      'Used local storage on Android and AsyncStorage in React Native.',
+      'Improved load time, responsiveness, and the smoothness of the main flows.',
+      'Handled unit testing, debugging, and performance tuning on release builds.',
+      'Turned wireframes into working screens with the UI/UX team.',
+      'Joined code reviews and shipped with design, backend, and QA.',
+    ],
+  },
+] as const
