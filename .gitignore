@@ -9,6 +9,13 @@ lerna-debug.log*
 
 node_modules
 dist
+
+# Private screen captures (hostel address, cart name and phone)
+src/assets/images/sevaki/photo-02.webp
+src/assets/images/sevaki/photo-03.webp
+src/assets/images/sevaki/screen-cart.webp
+src/assets/images/sevaki/screen-diwali.webp
+src/assets/images/sevaki/02.webp
 dist-ssr
 *.local
 
